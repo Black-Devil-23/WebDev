@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
+
+/* header section */
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(8, 8, 8, 0.7),rgba(29, 27, 27, 0.7),rgba(8, 8, 8, 0.7)),url("./Images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 0.5% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 170px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn1{
+    border: 1px solid #fff;
+    padding: 8px 22px;
+    background: transparent;
+    border-radius: 2px;
+}
+.btn2{
+    border: none;
+    padding: 7px 17px;
+    background: red;
+    border-radius: 2px;
+    font-size: 16px;
+}
+.textbox{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+.textbox h1{
+    font-size: 50px;
+}
+.textbox p{
+    margin:10px 0 40px;
+    font-size: 26px;
+    color:#fff;
+}
+.textbox label{
+    margin:10px 0 40px;
+    font-size: 19.2px;
+    color:#fff;
+    position: relative;
+}
+.textfield{
+    margin-right: 13%;
+}
+.textfield input[type=email]{
+    box-sizing: border-box;
+    width: 40%;
+    padding: 27px 20px ;
+    border-radius: 2px;
+    margin: 8px 0;
+    font-size: 16px;
+}
+.textfield input[value="Email Address"]{
+    color: grey;
+}
+.textfield a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+}
+.btn3{
+    border: none;
+    padding: 22px 50px;
+    background: red;
+    border-radius: 2px;
+    margin: 10px 0;
+    position: absolute;
+    margin-right: 20px;
+}
+
+hr{
+    height: 8px;
+    background-color: rgb(46, 44, 44);
+    border: none;
+}
+
+/* matter section */
+
+.first{
+    margin: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+}
+.left{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12rem;
+    position: relative;
+}
+.left h1{
+    color: #fff;
+    font-size: 50px;
+}
+.left p{
+    color: #fff;
+    font-size: 26px;
+}
+.right{
+    align-items: right;
+    margin-right: 15rem;
+    margin-left: 7rem;
+    padding-bottom: 3rem;
+    position: relative;
+}
+.right img{
+    height: 50%;
+    width: 120%;
+}
+
+/* second */
+.second{
+    margin: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+}
+.left1{
+    align-items: right;
+    margin-right: 15rem;
+    margin-left: 7rem;
+    padding-bottom: 3rem;
+    position: relative;
+}
+.left1 img{
+    height: 50%;
+    width: 120%;
+}
+.right1{
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12rem;
+    position: relative;
+}
+.right1 h1{
+    color: #fff;
+    font-size: 50px;
+}
+.right1 p{
+    color: #fff;
+    font-size: 26px;
+}
+
+/* third */
+.third{
+    margin: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+}
+.third .right{
+   padding-top: 3rem;
+}
+
+/* fourth */
+.fourth{
+    margin: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+}
+
+/* questions section */
+.questions{
+    background-color: black;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-top: 5rem;
+}
+.questions h1{
+    font-size: 62px;
+}
+.questions ul{
+    margin: 2em 16rem;
+    width: 70%;
+}
+.questions ul li{
+    list-style: none;
+    padding: 5px 10px;
+    cursor: pointer; 
+}
+.questions ul li .box{
+    padding: 20px 20px;
+    background: rgb(54, 52, 52);
+    border-radius: 2px;
+    font-size: 30px;
+    text-align: left;
+}
+.textbox1{
+    position: relative;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.textbox1 label{
+    margin:10px 0 40px;
+    font-size: 20px;
+    color:#fff;
+    position: relative;
+}
+
+/* footer section */
+.footer{
+    position: relative;
+    color: gray;
+    margin-left: 10rem;
+}
+.footer p{
+    font-size: 16px;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+}
+.top .list{
+    display: inline-block;
+}
+.list li{
+    list-style: none;
+    padding: 0.5rem;
+    margin-right: 5rem;
+}
+.footer ul li{
+    list-style: none;
+}
+.button{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.btn4{
+    color: gray;
+    border: gray 1px solid;
+    text-align: left;
+    align-items: left;
+    text-decoration: none;
+    padding: 10px 15px;
+}
